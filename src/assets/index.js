@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import aws from "./tech/aws.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -29,6 +30,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import coinpanda from "./coinpanda.png";
+import l3matrix from "./l3matrix.png";
+import universalprinters from "./universalprinters.png";
+
+import rainstream from "./rainstream.png";
+import maxgen from "./maxgen.png";
 
 export {
   logo,
@@ -41,6 +48,7 @@ export {
   close,
   css,
   docker,
+  aws,
   figma,
   git,
   html,
@@ -59,4 +67,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  coinpanda,
+  l3matrix,
+  universalprinters,
+  rainstream,
+  maxgen,
 };

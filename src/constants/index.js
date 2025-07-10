@@ -15,6 +15,7 @@ import {
   git,
   figma,
   docker,
+  aws,
   meta,
   starbucks,
   tesla,
@@ -22,6 +23,11 @@ import {
   carrent,
   jobit,
   tripguide,
+  coinpanda,
+  l3matrix,
+  universalprinters,
+  rainstream,
+  maxgen,
   threejs,
 } from "../assets";
 
@@ -42,20 +48,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer Laravel | React",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Backend Developer Laravel | PHP | NodeJS",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "AWS & Cloud Deployment",
+    icon: docker,
+  },
+  {
+    title: "Database Design & Optimization",
+    icon: mongodb,
   },
 ];
 
@@ -65,15 +71,11 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Laravel",
+    icon: typescript,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
+    name: "PHP",
     icon: typescript,
   },
   {
@@ -81,90 +83,121 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Redis",
+    icon: docker,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Git",
+    icon: git,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: "MySQL",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: mongodb,
   },
   {
-    name: "git",
-    icon: git,
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "aws",
+  //   icon: aws,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "PHP Developer",
+    company_name: "Maxgen Technologies",
+    icon: maxgen, // image file: /src/assets/maxgen.png
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2020 - Mar 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed 6-month internship focused on Core PHP and MySQL.",
+      "Built basic modules and worked on small live projects under guidance.",
+      "Learned CRUD operations, form handling, and HTML/CSS integration.",
+      "Collaborated with seniors for code improvement and debugging.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Senior Backend Developer",
+    company_name: "Rainstream Web",
+    icon: rainstream, // image file: /src/assets/rainstream.png
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built and maintained scalable backend systems using Laravel and MySQL.",
+      "Delivered features for Coinpanda (Laravel + React crypto tax platform).",
+      "Integrated Stripe payments, Google 2FA, JWT Auth, and multi-role APIs.",
+      "Managed deployments using AWS EC2, RDS, Cloudflare, and CodePipeline.",
+      "Worked in agile teams using Git, Slack, and Trello.",
     ],
   },
 ];
@@ -197,68 +230,103 @@ const testimonials = [
 ];
 
 const projects = [
+  // {
+  //   name: "Car Rent",
+  //   description:
+  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: carrent,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
   {
-    name: "Car Rent",
+    name: "Coinpanda",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Crypto tax platform built with Laravel + React. I developed wallet sync logic, multi-role APIs, multilingual report export, and Google/Coinbase login integration.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "laravel", color: "red-text-gradient" },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "aws", color: "green-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: coinpanda, // replace with actual image if available
+    source_code_link: "https://coinpanda.io",
   },
   {
-    name: "Job IT",
+    name: "L3 Matrix",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "E-learning system with Admin, Teacher, Student, Salesperson roles. Developed full backend including courses, quizzes, live user tracking, and Stripe integration.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "laravel", color: "red-text-gradient" },
+      { name: "mysql", color: "green-text-gradient" },
+      { name: "stripe", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: l3matrix, // replace with actual image
+    source_code_link: "https://l3matrix.com",
   },
   {
-    name: "Trip Guide",
+    name: "Universal Printers",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Online ID card ordering platform with multi-role dashboard, order management, and backend logic for large print volume processing.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "php", color: "yellow-text-gradient" },
+      { name: "mysql", color: "green-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: universalprinters, // replace with actual image
+    source_code_link: "https://universalprinters.in",
   },
 ];
 

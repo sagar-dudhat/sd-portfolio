@@ -30,6 +30,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    const now = new Date().toLocaleString();
 
     emailjs
       .send(
@@ -37,10 +38,11 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Sagar Dudhat",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "dudhatsagar84@gmail.com",
           message: form.message,
+          time: now,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
