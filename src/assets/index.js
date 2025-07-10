@@ -22,6 +22,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import laravel from "./tech/laravel.png";
+import php from "./tech/php.png";
+import mysql from "./tech/mysql.png";
+import postgressql from "./tech/postgressql.png";
+import redis from "./tech/redis.png";
+import jquery from "./tech/jquery.png";
+import angular from "./tech/angular.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -59,6 +67,13 @@ export {
   redux,
   tailwind,
   typescript,
+  laravel,
+  php,
+  mysql,
+  postgressql,
+  redis,
+  jquery,
+  angular,
   threejs,
   meta,
   shopify,

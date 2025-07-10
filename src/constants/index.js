@@ -4,6 +4,13 @@ import {
   creator,
   web,
   javascript,
+  laravel,
+  php,
+  mysql,
+  postgressql,
+  redis,
+  jquery,
+  angular,
   typescript,
   html,
   css,
@@ -32,18 +39,11 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About", type: "section" },
+  { id: "work", title: "Work", type: "section" },
+  { id: "contact", title: "Contact", type: "section" },
+  { id: "github", title: "GitHub", type: "external", link: "https://github.com/sagar-dudhat" },
+  { id: "linkedin", title: "LinkedIn", type: "external", link: "https://linkedin.com/in/sagar-dudhat" },
 ];
 
 const services = [
@@ -65,22 +65,30 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
+const technologies = [  
   {
     name: "Laravel",
-    icon: typescript,
+    icon: laravel,
   },
   {
     name: "PHP",
-    icon: typescript,
+    icon: php,
   },
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "jQuery",
+    icon: jquery,
   },
   {
     name: "Tailwind CSS",
@@ -88,7 +96,7 @@ const technologies = [
   },
   {
     name: "Redis",
-    icon: docker,
+    icon: redis,
   },
   {
     name: "AWS",
@@ -99,16 +107,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "MySQL",
-    icon: mongodb,
+    icon: mysql,
   },
   {
     name: "PostgreSQL",
-    icon: mongodb,
+    icon: postgressql,
   },
   {
     name: "MongoDB",
@@ -131,44 +135,12 @@ const technologies = [
   //   icon: javascript,
   // },
   // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
-  // {
-  //   name: "React JS",
-  //   icon: reactjs,
-  // },
-  // {
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
   // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
   //   name: "Three JS",
   //   icon: threejs,
-  // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "aws",
-  //   icon: aws,
   // },
 ];
 
