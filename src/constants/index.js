@@ -67,20 +67,20 @@ const services = [
 
 const technologies = [  
   {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
     name: "PHP",
     icon: php,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Angular",
@@ -118,10 +118,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   // {
   //   name: "HTML 5",
   //   icon: html,
