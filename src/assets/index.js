@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -45,6 +45,8 @@ import universalprinters from "./universalprinters.png";
 import rainstream from "./rainstream.png";
 import maxgen from "./maxgen.png";
 
+import share from "./share.png";
+
 export {
   logo,
   backend,
@@ -87,4 +89,5 @@ export {
   universalprinters,
   rainstream,
   maxgen,
+  share,
 };

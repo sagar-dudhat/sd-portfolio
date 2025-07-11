@@ -177,27 +177,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Sagar consistently delivered clean and maintainable Laravel code across multiple projects. A dependable team player.",
+    name: "Pratik Patel",
+    designation: "Tech Lead",
+    company: "Rainstream Web",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Working with Sagar was a great experience. He quickly understood the business logic and implemented scalable APIs efficiently.",
+    name: "Ashish Odich",
+    designation: "Project Manager",
+    company: "Rainstream Web",
+    image: "https://randomuser.me/api/portraits/men/33.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Testimonials are coming soon – actively collecting feedback from my previous team members and collaborators.",
+    name: "Nileshkumar Singh",
+    designation: "Full-Stack Developer",
+    company: "Portfolio Placeholder",
+    image: "https://randomuser.me/api/portraits/men/15.jpg",
   },
 ];
 
@@ -266,38 +266,38 @@ const projects = [
   //   source_code_link: "https://github.com/",
   // },
   {
-    name: "Coinpanda",
+    name: "Coinpanda (Team Project)",
     description:
-      "Crypto tax platform built with Laravel + React. I developed wallet sync logic, multi-role APIs, multilingual report export, and Google/Coinbase login integration.",
+      "A crypto tax platform built with Laravel + React during my time at Rainstream Web. I worked on wallet sync logic, multi-role APIs, multilingual PDF reports, and Google/Coinbase login integrations.",
     tags: [
       { name: "laravel", color: "red-text-gradient" },
       { name: "react", color: "blue-text-gradient" },
       { name: "aws", color: "green-text-gradient" },
     ],
-    image: coinpanda, // replace with actual image if available
+    image: coinpanda,
     source_code_link: "https://coinpanda.io",
   },
   {
-    name: "L3 Matrix",
+    name: "L3 Matrix (Team Project)",
     description:
-      "E-learning system with Admin, Teacher, Student, Salesperson roles. Developed full backend including courses, quizzes, live user tracking, and Stripe integration.",
+      "Developed as part of a team at Rainstream Web. It’s an e-learning platform with Admin, Teacher, Student, and Salesperson roles. I was responsible for full backend including course & quiz modules, user tracking, and Stripe payment integration.",
     tags: [
       { name: "laravel", color: "red-text-gradient" },
       { name: "mysql", color: "green-text-gradient" },
       { name: "stripe", color: "pink-text-gradient" },
     ],
-    image: l3matrix, // replace with actual image
+    image: l3matrix,
     source_code_link: "https://l3matrix.com",
   },
   {
     name: "Universal Printers",
     description:
-      "Online ID card ordering platform with multi-role dashboard, order management, and backend logic for large print volume processing.",
+      "ID card ordering and management platform. My contributions included building multi-role dashboard logic, order handling APIs, and scalable backend architecture for bulk print processing.",
     tags: [
       { name: "php", color: "yellow-text-gradient" },
       { name: "mysql", color: "green-text-gradient" },
     ],
-    image: universalprinters, // replace with actual image
+    image: universalprinters,
     source_code_link: "https://universalprinters.in",
   },
 ];
