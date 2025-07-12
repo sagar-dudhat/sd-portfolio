@@ -66,34 +66,34 @@ const services = [
 ];
 
 const technologies = [  
-  {
-    name: "PHP",
-    icon: php,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Angular",
-    icon: angular,
-  },
-  {
-    name: "jQuery",
-    icon: jquery,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "PHP",
+  //   icon: php,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "Laravel",
+  //   icon: laravel,
+  // },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
+  // {
+  //   name: "jQuery",
+  //   icon: jquery,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Redis",
     icon: redis,
